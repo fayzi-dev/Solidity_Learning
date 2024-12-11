@@ -27,6 +27,7 @@ contract Variable{
         start, //0
         run, //1
         end //2
+        
     }
 
 //struct

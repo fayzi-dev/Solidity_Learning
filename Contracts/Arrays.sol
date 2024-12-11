@@ -30,4 +30,22 @@ contract Arrays{
     }
 
 
+    mapping (address => uint256) public  Amount;
+
+    function SetMapping(uint Token) public {
+        Amount[msg.sender]= Token;
+    }
+
+    function Getmapping() public view returns(uint){
+        return Amount[msg.sender];
+    }
+
+    struct UseInfo{
+        string fname;
+        string username;
+        uint id;
+    }
+
+    
+
 }

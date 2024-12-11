@@ -76,6 +76,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "GetTestArray1Pop",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "GetTestArray1Push",
 				"outputs": [
 					{
@@ -129,11 +142,11 @@
 	},
 	"sources": {
 		"Contracts/Arrays.sol": {
-			"keccak256": "0x0793c2f33f4cb879a109aad03a53dca60dc51951223e73d3edeacd85651db40d",
+			"keccak256": "0x58ee465926c2fe54253a8b924ab203b3f37c4988b0777056a4c8b7b40bb16516",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2e7f49434d5936bb0ee43d69a500467ef50ca01e846e5698cdbb7401502c74e4",
-				"dweb:/ipfs/QmUqw4uEobXhGRWFLrxFrjxC2a3G3vYGjBedV8WuDNyav3"
+				"bzz-raw://d82e2b9af8c7a901a25522fd1d33d6897abb88fe07b382a84be0557d73e14f80",
+				"dweb:/ipfs/QmQUS9YzkaJZyo2AT4tYynFi7GAaW1mxbCbwScNG9pkH2c"
 			]
 		}
 	},

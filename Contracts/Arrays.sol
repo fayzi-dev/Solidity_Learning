@@ -24,5 +24,10 @@ contract Arrays{
         return Array1;
     }
 
-    
+    function GetTestArray1Pop() public returns (uint[] memory){
+        Array1.pop();
+        return Array1;
+    }
+
+
 }

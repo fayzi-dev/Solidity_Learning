@@ -6,6 +6,7 @@ contract Child is Parent{
 
     function GetSum(uint c, uint d) public pure returns (uint){
         return  SumNumber(c,d);
+        // return super.SumNumber(c,d);
     }
 
     function SumNumber(uint a, uint b) public  pure override returns (uint){
